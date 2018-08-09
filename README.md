@@ -5,7 +5,8 @@
 这里使用thymeleaf示例，在类`com.knight.configdemo.config.WebMVCConfig`中是配置thymeleaf的相关配置都是模板代码。
 
 ### 定义API响应风格
-通过自定义类实现，在类`com.knight.configdemo.base.ApiResponse`中
+通过自定义类实现，在类`com.knight.configdemo.base.ApiResponse`中实现，[AppErrorController](https://github.com/CavaliersFor/web_config/blob/master/src/main/java/com/knight/configdemo/base/AppErrorController.java)
+
 
 ### web错误全局处理Controller
 在spring boot中通过实现类`org.springframework.boot.autoconfigure.web.ErrorController`处理全局错误；详情见类`com.knight.configdemo.base.AppErrorController`
